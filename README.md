@@ -39,7 +39,7 @@ The easiest way to deploy is with [Vercel](https://vercel.com):
 npm run build
 ```
 
-Then deploy the `storeshot` folder to Vercel or any Next.js host.
+Then deploy this repo to Vercel or any Next.js host (no root directory needed).
 
 ## Tech
 
