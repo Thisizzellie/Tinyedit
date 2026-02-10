@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f1117;
+  --foreground: #e4e4e7;
+  --card: #181b23;
+  --border: rgba(255, 255, 255, 0.08);
+  --muted: rgba(255, 255, 255, 0.6);
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* Dark theme form controls */
+select option {
+  background: var(--card);
+  color: var(--foreground);
+}
+
+input[type="range"] {
+  accent-color: var(--accent);
+}
